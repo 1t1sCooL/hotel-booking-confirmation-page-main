@@ -66,7 +66,7 @@ function onKeydown(event: KeyboardEvent) {
       <footer class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>.
-        Coded by <a href="https://mmalabugin.ru/">Mikhail Malabugin</a>.
+        Coded by <a href="https://www.frontendmentor.io/profile/1t1sCooL">1t1sCooL</a>.
       </footer>
     </main>
   </div>
