@@ -115,7 +115,7 @@ function onKeydown(event: KeyboardEvent) {
   flex-direction: column;
   padding: 1rem;
   overflow-y: auto;
-  background-color: var(--Neutral50);
+  background-color: var(--Neutral100);
 }
 
 .mobile-menu__header {
@@ -171,12 +171,12 @@ function onKeydown(event: KeyboardEvent) {
     height: 100vh;
     padding: 1rem;
     overflow-y: auto;
-    background-color: var(--Neutral50);
+    background-color: var(--Neutral100);
     border-right: 1px solid var(--Neutral200);
   }
 
   .sidebar__logo {
-    padding: 0.5rem 0.5rem 1.25rem;
+    padding: 0.25rem 0.25rem 1rem 0.4375rem;
     border-bottom: 1px solid var(--Neutral200);
     margin-bottom: 1rem;
   }
@@ -188,7 +188,7 @@ function onKeydown(event: KeyboardEvent) {
   }
 
   .main {
-    padding: 1.75rem 2.5rem 2.5rem;
+    padding: 2rem 2.5rem 2.5rem;
   }
 }
 

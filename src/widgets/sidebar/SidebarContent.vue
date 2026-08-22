@@ -52,18 +52,19 @@ const navItems = [
 .nav {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.125rem;
 }
 
 .nav__link {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  padding: 0.5625rem 0.75rem;
+  padding: 0.5625rem 0.75rem 0.5625rem 0.875rem;
   border: 1px solid transparent;
   border-radius: 0.625rem;
   font-size: 0.875rem;
   font-weight: 500;
+  line-height: 1.45;
   color: var(--Neutral800);
   text-decoration: none;
   transition: background-color 0.2s;
@@ -101,7 +102,7 @@ const navItems = [
 .weather {
   position: relative;
   margin-top: auto;
-  padding: 0.875rem 1rem;
+  padding: 1rem 1rem 0.875rem;
   border-radius: 0.75rem;
   overflow: hidden;
   background-color: var(--Sun300);
@@ -125,7 +126,7 @@ const navItems = [
 }
 
 .weather__temp {
-  margin-top: 0.375rem;
+  margin-top: 0.25rem;
   font-family: var(--font-serif);
   font-size: 1.75rem;
   line-height: 1.1;
@@ -141,11 +142,11 @@ const navItems = [
 /* --- Bottom info --- */
 .footer-info {
   margin-top: 1rem;
-  padding-top: 1rem;
+  padding-top: 0.875rem;
   border-top: 1.5px dashed var(--Neutral400);
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.625rem;
 }
 
 .footer-info .eyebrow {

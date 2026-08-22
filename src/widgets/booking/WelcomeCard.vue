@@ -29,12 +29,11 @@ import iconSun from "../../shared/assets/images/icon-sun.svg";
 .welcome {
   display: flex;
   flex-direction: column;
-  padding: 1.5rem 1.75rem 1.75rem;
+  min-height: 27.5rem;
+  padding: 1rem 1.75rem 1.75rem;
   border-radius: 1.25rem;
   color: var(--Sun50);
-  background:
-    radial-gradient(120% 130% at 88% 100%, hsl(22, 72%, 56%, 0.55) 0%, transparent 55%),
-    linear-gradient(155deg, var(--Terracotta600) 15%, var(--Terracotta700) 100%);
+  background: linear-gradient(160deg, var(--Terracotta500) 0%, var(--Terracotta600) 48%, var(--Terracotta700) 100%);
   box-shadow: 0 1.875rem 3.75rem -1.25rem hsl(15, 69%, 20%, 0.5);
 }
 
@@ -55,7 +54,7 @@ import iconSun from "../../shared/assets/images/icon-sun.svg";
 
 .welcome__sun {
   align-self: flex-end;
-  margin-top: 0.75rem;
+  margin-top: 1.375rem;
 }
 
 .welcome__lead {
@@ -75,10 +74,25 @@ import iconSun from "../../shared/assets/images/icon-sun.svg";
 }
 
 .welcome__note {
-  margin-top: 1.125rem;
+  margin-top: 1.75rem;
   font-size: 0.9375rem;
   line-height: 1.6;
   color: hsl(41, 100%, 93%, 0.92);
+}
+
+@media (min-width: 48rem) {
+  .welcome {
+    min-height: 0;
+    padding-bottom: 1rem;
+  }
+
+  .welcome__host {
+    font-size: 2.625rem;
+  }
+
+  .welcome__note {
+    font-size: 0.875rem;
+  }
 }
 
 .welcome__footer {
