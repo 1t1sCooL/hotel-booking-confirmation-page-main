@@ -22,7 +22,7 @@ import iconSparkle from "../../shared/assets/images/icon-sparkle.svg";
 
 <style scoped>
 .stack-section {
-  margin-top: 2rem;
+  margin-top: 1.75rem;
 }
 
 .stack {
@@ -55,7 +55,7 @@ import iconSparkle from "../../shared/assets/images/icon-sparkle.svg";
     align-items: center;
     justify-content: center;
     gap: 0;
-    padding: 1.5rem 0;
+    padding: 2.375rem 0 0.125rem;
   }
 
   .stack__sun {
@@ -65,6 +65,13 @@ import iconSparkle from "../../shared/assets/images/icon-sparkle.svg";
     left: 50%;
     translate: -50% -50%;
     z-index: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+
+  .stack:hover .stack__sun,
+  .stack:focus-within .stack__sun {
+    opacity: 1;
   }
 
   .stack__receipt,
@@ -77,16 +84,17 @@ import iconSparkle from "../../shared/assets/images/icon-sparkle.svg";
   .stack__receipt {
     z-index: 1;
     width: 24.5rem;
+    min-height: 26.125rem;
     flex-shrink: 0;
-    transform: rotate(-4deg) translateX(0.25rem);
+    transform: rotate(-4deg);
   }
 
   .stack__welcome {
     z-index: 2;
     width: 25rem;
-    min-height: 26.5rem;
+    min-height: 26.125rem;
     flex-shrink: 0;
-    transform: rotate(3.5deg) translateX(-0.25rem) translateY(-0.5rem);
+    transform: rotate(3.5deg);
   }
 
   .stack:hover .stack__receipt,
@@ -104,7 +112,7 @@ import iconSparkle from "../../shared/assets/images/icon-sparkle.svg";
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    margin-top: 0.75rem;
+    margin-top: 1rem;
     color: var(--Terracotta600);
     letter-spacing: 0.2em;
   }

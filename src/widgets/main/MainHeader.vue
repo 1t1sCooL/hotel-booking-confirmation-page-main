@@ -32,14 +32,15 @@ function printReceipt() {
 }
 
 .header__title {
-  margin-top: 0.75rem;
+  margin-top: 0.375rem;
   font-family: var(--font-serif);
-  font-size: 2.25rem;
+  font-size: 2.1875rem;
   font-weight: 400;
   line-height: 1.15;
 }
 
 .header__title em {
+  margin-left: 0.25rem;
   color: var(--Terracotta600);
 }
 
@@ -49,15 +50,17 @@ function printReceipt() {
 }
 
 .button {
-  padding: 0.75rem 1.5rem;
+  padding: 0.4375rem 1.25rem;
   border-radius: 999px;
-  font-size: 0.875rem;
+  border: 1px solid transparent;
+  font-size: 0.9375rem;
   font-weight: 500;
   transition: background-color 0.2s;
 }
 
 .button--light {
-  background-color: var(--Neutral0);
+  background-color: var(--Neutral50);
+  border-color: var(--Neutral200);
   color: var(--Neutral900);
   box-shadow: 0 1px 3px hsl(33, 15%, 15%, 0.08);
 }
@@ -94,7 +97,7 @@ function printReceipt() {
 @media (min-width: 48rem) {
   .header {
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
   }
 

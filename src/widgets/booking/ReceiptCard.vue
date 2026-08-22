@@ -54,7 +54,7 @@ const items = [
 .receipt {
   display: flex;
   flex-direction: column;
-  padding: 1.5rem 1.75rem 1.375rem;
+  padding: 1.125rem 1.5rem 1rem;
   background-color: var(--Neutral50);
   border-radius: 0.375rem;
   box-shadow: 0 1.5rem 3rem -0.75rem hsl(33, 15%, 15%, 0.25);
@@ -67,7 +67,7 @@ const items = [
 .receipt__header {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 1rem;
+  padding-bottom: 0.875rem;
   border-bottom: 1.5px dashed var(--Neutral400);
 }
 
@@ -90,7 +90,7 @@ const items = [
 .receipt__dates {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 1.125rem 0 1.25rem;
+  padding: 0.75rem 0 1.25rem;
   border-bottom: 1.5px dashed var(--Neutral400);
   text-align: center;
 }
@@ -112,8 +112,8 @@ const items = [
 .receipt__items {
   display: flex;
   flex-direction: column;
-  gap: 0.625rem;
-  padding: 1.125rem 0 1.25rem;
+  gap: 0.5rem;
+  padding: 0.75rem 0 0.625rem;
 }
 
 .receipt__item {
@@ -122,6 +122,7 @@ const items = [
   justify-content: space-between;
   gap: 1rem;
   font-size: 0.9375rem;
+  line-height: 1.45;
   color: var(--Neutral800);
 }
 
@@ -134,7 +135,7 @@ const items = [
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.875rem 0;
+  padding: 0.75rem 0;
   border-top: 1.5px solid var(--Neutral800);
 }
 
@@ -152,6 +153,6 @@ const items = [
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  margin-top: 0.375rem;
+  margin-top: 0.25rem;
 }
 </style>

@@ -81,11 +81,11 @@ async function copyPassword() {
 .cards {
   display: grid;
   gap: 1.25rem;
-  margin-top: 2rem;
+  margin-top: 2.4375rem;
 }
 
 .card {
-  padding: 1.375rem 1.5rem 1.5rem;
+  padding: 1.375rem 1.375rem 1rem;
   background-color: var(--Neutral50);
   border: 1px solid var(--Neutral200);
   border-radius: 0.875rem;
@@ -118,12 +118,12 @@ async function copyPassword() {
 .card__index {
   margin-left: auto;
   font-family: var(--font-serif);
-  font-size: 1.625rem;
+  font-size: 1.875rem;
   color: var(--accent);
 }
 
 .card__title {
-  margin-top: 1.25rem;
+  margin-top: 1.5rem;
   font-family: var(--font-serif);
   font-size: 1.625rem;
   font-weight: 400;
@@ -137,7 +137,7 @@ async function copyPassword() {
 }
 
 .card__body {
-  margin-top: 0.875rem;
+  margin-top: 0.75rem;
   font-size: 0.9063rem;
   line-height: 1.6;
   color: var(--Neutral700);
@@ -156,8 +156,8 @@ async function copyPassword() {
   align-items: center;
   justify-content: space-between;
   gap: 0.75rem;
-  min-height: 2.375rem;
-  padding: 0.375rem 0.875rem;
+  min-height: 2.125rem;
+  padding: 0.25rem 0.875rem;
   background-color: var(--Neutral200);
   border-radius: 0.5rem;
 }
@@ -210,7 +210,7 @@ async function copyPassword() {
 @media (min-width: 60rem) {
   .cards {
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    gap: 1.375rem;
   }
 }
 
