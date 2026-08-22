@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Vercel](https://hotel-booking-confirmation-page-main.vercel.app/)
+- Solution URL: [Vercel](https://hotel-booking-confirmation-page-mai-three.vercel.app/)
 - Live Site URL: [mmalabugin.ru/HotelBookingConfirmationPage](https://mmalabugin.ru/HotelBookingConfirmationPage/)
 
 ## My process
