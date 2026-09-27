@@ -83,7 +83,7 @@ function onKeydown(event: KeyboardEvent) {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem 0.875rem;
-  border-bottom: 1px solid var(--Neutral200);
+  border-bottom: 0.0625rem solid var(--Neutral200);
 }
 
 .icon-button {
@@ -92,7 +92,7 @@ function onKeydown(event: KeyboardEvent) {
   width: 2.5rem;
   height: 2.5rem;
   background-color: var(--Neutral50);
-  border: 1px solid var(--Neutral400);
+  border: 0.0625rem solid var(--Neutral400);
   border-radius: 0.625rem;
   transition: background-color 0.2s;
 }
@@ -102,8 +102,8 @@ function onKeydown(event: KeyboardEvent) {
 }
 
 .icon-button:focus-visible {
-  outline: 2px solid var(--Terracotta600);
-  outline-offset: 2px;
+  outline: 0.125rem solid var(--Terracotta600);
+  outline-offset: 0.125rem;
 }
 
 /* --- Mobile menu overlay --- */
@@ -122,7 +122,7 @@ function onKeydown(event: KeyboardEvent) {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 1.5rem;
+  margin-block-end: 1.5rem;
 }
 
 .mobile-menu__content {
@@ -142,7 +142,7 @@ function onKeydown(event: KeyboardEvent) {
 }
 
 .attribution {
-  margin-top: 3rem;
+  margin-block-start: 3rem;
   font-size: 0.6875rem;
   text-align: center;
   color: var(--Neutral600);
@@ -172,13 +172,13 @@ function onKeydown(event: KeyboardEvent) {
     padding: 1rem;
     overflow-y: auto;
     background-color: var(--Neutral100);
-    border-right: 1px solid var(--Neutral200);
+    border-right: 0.0625rem solid var(--Neutral200);
   }
 
   .sidebar__logo {
     padding: 0.25rem 0.25rem 1rem 0.4375rem;
-    border-bottom: 1px solid var(--Neutral200);
-    margin-bottom: 1rem;
+    border-bottom: 0.0625rem solid var(--Neutral200);
+    margin-block-end: 1rem;
   }
 
   .sidebar__content {

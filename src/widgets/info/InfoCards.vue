@@ -81,13 +81,13 @@ async function copyPassword() {
 .cards {
   display: grid;
   gap: 1.25rem;
-  margin-top: 2.4375rem;
+  margin-block-start: 2.4375rem;
 }
 
 .card {
   padding: 1.375rem 1.375rem 1rem;
   background-color: var(--Neutral50);
-  border: 1px solid var(--Neutral200);
+  border: 0.0625rem solid var(--Neutral200);
   border-radius: 0.875rem;
   box-shadow: 0 0.5rem 1.25rem -0.75rem hsl(33, 15%, 15%, 0.12);
 }
@@ -116,14 +116,14 @@ async function copyPassword() {
 }
 
 .card__index {
-  margin-left: auto;
+  margin-inline-start: auto;
   font-family: var(--font-serif);
   font-size: 1.875rem;
   color: var(--accent);
 }
 
 .card__title {
-  margin-top: 1.5rem;
+  margin-block-start: 1.5rem;
   font-family: var(--font-serif);
   font-size: 1.625rem;
   font-weight: 400;
@@ -131,13 +131,13 @@ async function copyPassword() {
 }
 
 .card__sub {
-  margin-top: 0.25rem;
+  margin-block-start: 0.25rem;
   font-size: 0.8125rem;
   color: var(--Neutral600);
 }
 
 .card__body {
-  margin-top: 0.75rem;
+  margin-block-start: 0.75rem;
   font-size: 0.9063rem;
   line-height: 1.6;
   color: var(--Neutral700);
@@ -148,7 +148,7 @@ async function copyPassword() {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin-top: 0.875rem;
+  margin-block-start: 0.875rem;
 }
 
 .wifi__row {
@@ -180,8 +180,8 @@ async function copyPassword() {
 
 .wifi__copy {
   padding: 0.25rem 0.75rem;
-  border: 1px solid var(--Neutral400);
-  border-radius: 999px;
+  border: 0.0625rem solid var(--Neutral400);
+  border-radius: 62.4375rem;
   background-color: var(--Neutral50);
   color: var(--Neutral700);
   font-size: 0.625rem;
@@ -194,14 +194,14 @@ async function copyPassword() {
 }
 
 .wifi__copy:focus-visible {
-  outline: 2px solid var(--Terracotta600);
-  outline-offset: 1px;
+  outline: 0.125rem solid var(--Terracotta600);
+  outline-offset: 0.0625rem;
 }
 
 .visually-hidden {
   position: absolute;
-  width: 1px;
-  height: 1px;
+  width: 0.0625rem;
+  height: 0.0625rem;
   overflow: hidden;
   clip: rect(0 0 0 0);
   white-space: nowrap;

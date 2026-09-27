@@ -67,12 +67,12 @@ const items = [
 .receipt__header {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 0.875rem;
-  border-bottom: 1.5px dashed var(--Neutral400);
+  padding-block-end: 0.875rem;
+  border-bottom: 0.09375rem dashed var(--Neutral400);
 }
 
 .receipt__title {
-  margin-top: 0.375rem;
+  margin-block-start: 0.375rem;
   font-family: var(--font-serif);
   font-size: 1.5rem;
   font-weight: 400;
@@ -91,12 +91,12 @@ const items = [
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 0.75rem 0 1.25rem;
-  border-bottom: 1.5px dashed var(--Neutral400);
+  border-bottom: 0.09375rem dashed var(--Neutral400);
   text-align: center;
 }
 
 .receipt__day {
-  margin-top: 0.5rem;
+  margin-block-start: 0.5rem;
   font-family: var(--font-serif);
   font-size: 2.5rem;
   line-height: 1;
@@ -104,7 +104,7 @@ const items = [
 }
 
 .receipt__time {
-  margin-top: 0.375rem;
+  margin-block-start: 0.375rem;
   font-size: 0.8125rem;
   color: var(--Neutral600);
 }
@@ -136,7 +136,7 @@ const items = [
   align-items: center;
   justify-content: space-between;
   padding: 0.75rem 0;
-  border-top: 1.5px solid var(--Neutral800);
+  border-top: 0.09375rem solid var(--Neutral800);
 }
 
 .receipt__total-label {
@@ -153,6 +153,6 @@ const items = [
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  margin-top: 0.25rem;
+  margin-block-start: 0.25rem;
 }
 </style>

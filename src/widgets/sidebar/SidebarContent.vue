@@ -60,7 +60,7 @@ const navItems = [
   align-items: center;
   gap: 0.75rem;
   padding: 0.5625rem 0.75rem 0.5625rem 0.875rem;
-  border: 1px solid transparent;
+  border: 0.0625rem solid transparent;
   border-radius: 0.625rem;
   font-size: 0.875rem;
   font-weight: 500;
@@ -82,13 +82,13 @@ const navItems = [
 
 .nav__link--current {
   background-color: var(--Neutral0);
-  box-shadow: 0 1px 3px hsl(33, 15%, 15%, 0.08);
+  box-shadow: 0 0.0625rem 0.1875rem hsl(33, 15%, 15%, 0.08);
 }
 
 .nav__badge {
   display: grid;
   place-items: center;
-  margin-left: auto;
+  margin-inline-start: auto;
   width: 1.125rem;
   height: 1.125rem;
   border-radius: 50%;
@@ -101,7 +101,7 @@ const navItems = [
 /* --- Weather card --- */
 .weather {
   position: relative;
-  margin-top: auto;
+  margin-block-start: auto;
   padding: 1rem 1rem 0.875rem;
   border-radius: 0.75rem;
   overflow: hidden;
@@ -126,7 +126,7 @@ const navItems = [
 }
 
 .weather__temp {
-  margin-top: 0.25rem;
+  margin-block-start: 0.25rem;
   font-family: var(--font-serif);
   font-size: 1.75rem;
   line-height: 1.1;
@@ -134,16 +134,16 @@ const navItems = [
 }
 
 .weather__desc {
-  margin-top: 0.125rem;
+  margin-block-start: 0.125rem;
   font-size: 0.8125rem;
   color: var(--Neutral700);
 }
 
 /* --- Bottom info --- */
 .footer-info {
-  margin-top: 1rem;
-  padding-top: 0.875rem;
-  border-top: 1.5px dashed var(--Neutral400);
+  margin-block-start: 1rem;
+  padding-block-start: 0.875rem;
+  border-top: 0.09375rem dashed var(--Neutral400);
   display: flex;
   flex-direction: column;
   gap: 0.625rem;
@@ -155,6 +155,6 @@ const navItems = [
 }
 
 .nav {
-  margin-bottom: 2rem;
+  margin-block-end: 2rem;
 }
 </style>
