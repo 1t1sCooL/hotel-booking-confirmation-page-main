@@ -32,7 +32,7 @@ function printReceipt() {
 }
 
 .header__title {
-  margin-top: 0.375rem;
+  margin-block-start: 0.375rem;
   font-family: var(--font-serif);
   font-size: 2.1875rem;
   font-weight: 400;
@@ -40,7 +40,7 @@ function printReceipt() {
 }
 
 .header__title em {
-  margin-left: 0.25rem;
+  margin-inline-start: 0.25rem;
   color: var(--Terracotta600);
 }
 
@@ -51,8 +51,8 @@ function printReceipt() {
 
 .button {
   padding: 0.4375rem 1.25rem;
-  border-radius: 999px;
-  border: 1px solid transparent;
+  border-radius: 62.4375rem;
+  border: 0.0625rem solid transparent;
   font-size: 0.9375rem;
   font-weight: 500;
   transition: background-color 0.2s;
@@ -62,7 +62,7 @@ function printReceipt() {
   background-color: var(--Neutral50);
   border-color: var(--Neutral200);
   color: var(--Neutral900);
-  box-shadow: 0 1px 3px hsl(33, 15%, 15%, 0.08);
+  box-shadow: 0 0.0625rem 0.1875rem hsl(33, 15%, 15%, 0.08);
 }
 
 .button--light:hover {
@@ -70,8 +70,8 @@ function printReceipt() {
 }
 
 .button--light:focus-visible {
-  outline: 2px solid var(--Terracotta600);
-  outline-offset: 2px;
+  outline: 0.125rem solid var(--Terracotta600);
+  outline-offset: 0.125rem;
 }
 
 .button--dark {
@@ -84,8 +84,8 @@ function printReceipt() {
 }
 
 .button--dark:focus-visible {
-  outline: 2px solid var(--Neutral900);
-  outline-offset: 2px;
+  outline: 0.125rem solid var(--Neutral900);
+  outline-offset: 0.125rem;
 }
 
 @media (max-width: 47.9375rem) {

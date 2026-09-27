@@ -22,7 +22,7 @@ import iconSparkle from "../../shared/assets/images/icon-sparkle.svg";
 
 <style scoped>
 .stack-section {
-  margin-top: 1.75rem;
+  margin-block-start: 1.75rem;
 }
 
 .stack {
@@ -112,7 +112,7 @@ import iconSparkle from "../../shared/assets/images/icon-sparkle.svg";
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    margin-top: 1rem;
+    margin-block-start: 1rem;
     color: var(--Terracotta600);
     letter-spacing: 0.2em;
   }

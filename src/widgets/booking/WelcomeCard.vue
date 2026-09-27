@@ -49,16 +49,16 @@ import iconSun from "../../shared/assets/images/icon-sun.svg";
 
 .welcome__dash {
   flex: 1;
-  border-top: 1.5px dashed hsl(41, 100%, 93%, 0.35);
+  border-top: 0.09375rem dashed hsl(41, 100%, 93%, 0.35);
 }
 
 .welcome__sun {
   align-self: flex-end;
-  margin-top: 1.375rem;
+  margin-block-start: 1.375rem;
 }
 
 .welcome__lead {
-  margin-top: 0.75rem;
+  margin-block-start: 0.75rem;
   font-family: var(--font-serif);
   font-style: italic;
   font-size: 1.25rem;
@@ -66,7 +66,7 @@ import iconSun from "../../shared/assets/images/icon-sun.svg";
 }
 
 .welcome__host {
-  margin-top: 0.25rem;
+  margin-block-start: 0.25rem;
   font-family: var(--font-serif);
   font-style: italic;
   font-size: 2.5rem;
@@ -74,7 +74,7 @@ import iconSun from "../../shared/assets/images/icon-sun.svg";
 }
 
 .welcome__note {
-  margin-top: 1.75rem;
+  margin-block-start: 1.75rem;
   font-size: 0.9375rem;
   line-height: 1.6;
   color: hsl(41, 100%, 93%, 0.92);
@@ -83,7 +83,7 @@ import iconSun from "../../shared/assets/images/icon-sun.svg";
 @media (min-width: 48rem) {
   .welcome {
     min-height: 0;
-    padding-bottom: 1rem;
+    padding-block-end: 1rem;
   }
 
   .welcome__host {
@@ -96,12 +96,12 @@ import iconSun from "../../shared/assets/images/icon-sun.svg";
 }
 
 .welcome__footer {
-  margin-top: auto;
-  padding-top: 2.25rem;
+  margin-block-start: auto;
+  padding-block-start: 2.25rem;
 }
 
 .welcome__room {
-  margin-top: 0.375rem;
+  margin-block-start: 0.375rem;
   font-family: var(--font-serif);
   font-size: 1.375rem;
 }
