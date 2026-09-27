@@ -66,7 +66,6 @@ import iconSparkle from "../../shared/assets/images/icon-sparkle.svg";
     translate: -50% -50%;
     z-index: 0;
     opacity: 0;
-    transition: opacity 0.4s ease;
   }
 
   .stack:hover .stack__sun,
@@ -77,7 +76,6 @@ import iconSparkle from "../../shared/assets/images/icon-sparkle.svg";
   .stack__receipt,
   .stack__welcome {
     order: 0;
-    transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
     will-change: transform;
   }
 
@@ -130,6 +128,16 @@ import iconSparkle from "../../shared/assets/images/icon-sparkle.svg";
     width: auto;
     max-width: 26rem;
     box-shadow: none;
+  }
+}
+
+/* Motion: opt in to transitions/animation only when the user welcomes it */
+@media (prefers-reduced-motion: no-preference) and (min-width: 48rem) {
+  .stack__sun {
+    transition: opacity 0.4s ease;
+  }
+  .stack__receipt, .stack__welcome {
+    transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
   }
 }
 </style>
