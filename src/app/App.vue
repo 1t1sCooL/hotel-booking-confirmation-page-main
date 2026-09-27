@@ -94,7 +94,6 @@ function onKeydown(event: KeyboardEvent) {
   background-color: var(--Neutral50);
   border: 0.0625rem solid var(--Neutral400);
   border-radius: 0.625rem;
-  transition: background-color 0.2s;
 }
 
 .icon-button:hover {
@@ -197,6 +196,13 @@ function onKeydown(event: KeyboardEvent) {
   .sidebar,
   .attribution {
     display: none;
+  }
+}
+
+/* Motion: opt in to transitions/animation only when the user welcomes it */
+@media (prefers-reduced-motion: no-preference) {
+  .icon-button {
+    transition: background-color 0.2s;
   }
 }
 </style>

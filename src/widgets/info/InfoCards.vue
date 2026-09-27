@@ -185,7 +185,6 @@ async function copyPassword() {
   background-color: var(--Neutral50);
   color: var(--Neutral700);
   font-size: 0.625rem;
-  transition: background-color 0.2s, border-color 0.2s;
 }
 
 .wifi__copy:hover {
@@ -217,6 +216,13 @@ async function copyPassword() {
 @media print {
   .cards {
     display: none;
+  }
+}
+
+/* Motion: opt in to transitions/animation only when the user welcomes it */
+@media (prefers-reduced-motion: no-preference) {
+  .wifi__copy {
+    transition: background-color 0.2s, border-color 0.2s;
   }
 }
 </style>

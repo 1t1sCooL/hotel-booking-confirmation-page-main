@@ -55,7 +55,6 @@ function printReceipt() {
   border: 0.0625rem solid transparent;
   font-size: 0.9375rem;
   font-weight: 500;
-  transition: background-color 0.2s;
 }
 
 .button--light {
@@ -109,6 +108,13 @@ function printReceipt() {
 @media print {
   .header__actions {
     display: none;
+  }
+}
+
+/* Motion: opt in to transitions/animation only when the user welcomes it */
+@media (prefers-reduced-motion: no-preference) {
+  .button {
+    transition: background-color 0.2s;
   }
 }
 </style>

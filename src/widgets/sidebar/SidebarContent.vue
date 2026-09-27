@@ -67,7 +67,6 @@ const navItems = [
   line-height: 1.45;
   color: var(--Neutral800);
   text-decoration: none;
-  transition: background-color 0.2s;
 }
 
 .nav__link:hover {
@@ -156,5 +155,12 @@ const navItems = [
 
 .nav {
   margin-block-end: 2rem;
+}
+
+/* Motion: opt in to transitions/animation only when the user welcomes it */
+@media (prefers-reduced-motion: no-preference) {
+  .nav__link {
+    transition: background-color 0.2s;
+  }
 }
 </style>
